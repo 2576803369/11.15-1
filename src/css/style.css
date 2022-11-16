@@ -1,31 +1,33 @@
-ul{
-    margin: 0px;
-    padding:0px;
+ul,p,body{
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
-ul.nav{
-    overflow: hidden;
-}
 ul.nav li{
-   float: left;
-   margin-right: 10px;
-   width: 100px;
-   text-align: center;
-   height: 30px;
-   line-height: 30px;
+    text-align: center;
+    float: left;
+    width: 25vw;
+    height: 30px;
+    line-height: 30px;
+    background-color: rgb(111, 127, 232);
 }
 ul.nav li a{
-    text-decoration: none;
-    background-color: #09f;
-    color:#fff;
     display: block;
+    color: #fff;
+    text-decoration: none;
 }
 ul.nav li a:hover{
-    background-color: #090;
+    background-color: rgb(24, 99, 63);
+    color: #000;
 }
-.container{
-    width: 400px;
-    height: 400px;
-    background-color: #099;
-    color:#fff;
+.content{
+    margin: 1vw;
+}
+.footer{
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100vw;
+    background-color: rgb(42, 61, 228);
+    color: #fff;
 }

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import BaseRouter from './router/index1';
-
+import BaseRouter from './router';
 class App extends Component {
     render() {
         return (
